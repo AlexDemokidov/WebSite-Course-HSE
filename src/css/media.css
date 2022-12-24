@@ -1,0 +1,218 @@
+@media (max-width: 1300px){
+    .head__face{
+        width: 100px;
+        height: 100px;
+    }
+    .head__face__img {
+        width: 64px;
+        height: 64px;
+    }
+    .about__goblet{
+        display: none;
+    }
+    .services__fields{
+        flex-direction: column;
+    }
+    .sum__clock{
+        display: none;
+    }
+    .sum__face{
+        display: none;
+    }
+    .order__face{
+        display: none;
+    }
+    .order__lighting{
+        display: none;
+    }
+    .order__message{
+        display: none;
+    }
+}
+@media (max-width: 992px){
+    .head__face{
+        right: 50px; 
+    }
+    .head__topic2__message{
+        display: none;
+    }
+    .head__lighting{
+        right: 1%;
+    }
+    .pictures__two{
+        flex-direction: column;
+    }
+    .pictures__two__img1{
+        width: 100%;
+    }
+    .pictures__two__img2{
+        width: 100%;
+    }
+    .head__message{
+        display: none;
+    }
+    .head__topic2__lighting{
+        display: none;
+    }
+}
+@media (max-width: 810px){
+    .head__topic{
+        font-size: 42px
+    }
+    .head__logo{
+       display: none;
+    }
+    .head__face{
+        display: none;
+    }
+    .head__info__text{
+        font-size: 8px;
+    }
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about__img{
+        order: 2;
+        margin: 40px;
+        height: 400px;
+        width: 300px;
+    }
+    .about__info{
+        order: 1;
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+    .about__topic{
+        margin-top: 0px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .about__text{
+        font-size: 10px;
+    }
+    .about__data__column__numbers{
+        font-size: 12px;
+    }
+    .about__data__column__text{
+        font-size: 12px;
+    }
+    
+}
+@media (max-width: 576px){
+    .head__topic{
+        font-size: 22px
+    }
+    .head__topic2__text{
+        font-size: 8px
+    }
+    .head__button__tg{
+        border-radius: 4px;
+        background: #181818;
+        font-size: 8px;
+        padding: 6px;
+        color: #FFFFFF;
+        display: flex;
+        align-self: center;
+    }
+    .head__button__video{
+        padding: 3px;
+        align-items:center;
+    }
+    .head__button__video__text{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .head__button__video__img{
+        height: 8px;
+        width: 8px;
+    }
+    .pictures__services{
+        gap: 8px;
+    }
+    .pictures__services__all{
+        line-height: 12px;
+        font-size: 8px;
+    }
+    .pictures__services__text{
+        line-height: 12px;
+        font-size: 8px;
+    }
+    .services__fields{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .services__field{
+        width: 260px;
+        height: 320px;
+    }
+    .services__field__offer__text{
+        font-size: 12px;
+    }
+    .services__field__offer__line{
+        margin-top: 20px;
+    }
+    .services__field__offer__price{
+        padding-top: 20px;
+    }
+    .sum__topic{
+        text-align: center;
+    }
+    .calculate{
+        padding: 10px;
+    }
+    .answer__container__text{
+        font-size: 8px;
+    }
+    .answer__field{
+        gap:10px;
+    }
+    .order__topic{
+        text-align: center;
+    }
+    .order__text{
+        text-align: center;
+    }
+    .order__form__field{
+        max-width: 220px;
+    }
+    .order__form__field2{
+        max-width: 220px;
+    }
+    .order__form__button{
+        padding: 10px;
+    }
+    .pictures__two__img1{
+        height: 300px;
+    }
+    .pictures__two__img2{
+        height: 300px;
+    }
+    .form__field1{
+        max-width: 200px;
+    }
+    .form__field2{
+        max-width: 200px;
+    }
+    .form__choose{
+        max-width: 200px;
+    }
+    .button_calculate{
+        width: 100%;
+        padding: 10px;
+    }
+    .calculate__topic{
+        max-width: 220px;
+        line-height: 32px;
+        display: flex;
+        text-align: center;
+        justify-self: center;
+    }
+    .calculate__button{
+        max-width: 100%;
+        padding: 10px;
+    }
+    .answer__header{
+        font-size: 40px;
+    }
+}
